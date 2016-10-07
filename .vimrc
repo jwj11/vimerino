@@ -30,8 +30,6 @@ call plug#end()
 " ------ Settings ------ 
 
 syntax enable
-set background=dark
-colorscheme solarized
 
 " Remove directory from buffer line names
 let g:airline#extensions#tabline#fnamemod = ':t'
@@ -58,3 +56,6 @@ set laststatus=2 " Display toolbar
 " Every tab everywhere is 2 spaces
 set tabstop=2 softtabstop=2 shiftwidth=2 expandtab shiftround
 set mouse=a
+
+" For York LABS
+set backspace=indent,eol,start
