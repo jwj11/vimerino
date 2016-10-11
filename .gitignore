@@ -3,7 +3,14 @@
 
 # But not these files...
 !.gitignore
+
 !.vimrc
+
+!bash_profile_course
+!git-completion.bash
+!git-prompt.sh
+
+!git_setup_commands.txt
 
 # ...even if they are in subdirectories
 # !*/
