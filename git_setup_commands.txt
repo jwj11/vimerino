@@ -1,1 +1,2 @@
-t config --global color.ui auto
+git config --global color.ui auto
+git config credential.helper store
